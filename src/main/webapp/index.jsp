@@ -8,7 +8,7 @@
         <!-- BOOTSTRAP CDN -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!-- MANAUL CSS FILE-->
-        <link rel="stylesheet" href="web-inf/assets/css/index.css">
+        <link rel="stylesheet" href="assets/css/index.css">
         <title>SELFCRYPT - Text Encryption Made Easy!</title>
     </head>
     <body>

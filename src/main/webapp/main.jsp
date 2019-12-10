@@ -14,16 +14,16 @@
         <!-- BOOTSTRAP CDN -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!-- MANAUL CSS FILE-->
-        <link rel="stylesheet" href="web-inf/assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/main.css">
         <title>SELFCRYPT - Text Encryption Made Easy!</title>
         
         <script>
 		window.onload = function () {
-				var name = document.getElementById("name");
-				if(name.innerHTML == "null") {
-					name.style.color = "red";
-					name.innerHTML = "";
-					
+				var result = document.getELementById("result");
+				if(result.innerHTML == "null") {
+					result.innerHTML = "";
+				} else {
+					result.innerHTML = "";
 				}
 			}
 		</script>
@@ -131,7 +131,7 @@
                     <div class="col-md-12">
                          <div class="result-box">
                              <h2 class="result-subtitle">Processed Text <span>(copy it from below)</span></h2>
-                             <p class="processed-text"><%= result %></p>
+                             <p class="processed-text" id="result"><%= result %></p>
                          </div>
                     </div>
                 </div>
@@ -141,7 +141,6 @@
 
 
 
-<!-- JAVA CODE FOR TEXT PROCESSING -->
 
     <!-- BOOTSTRAP REQUIRED JAVASCRIPT -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
