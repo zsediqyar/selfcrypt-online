@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; 
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #333;
+  background: #eee; 
+}
+
+
+/* MAIN PAGE STYLES */
+.desc-box {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.desc-title {
+    text-transform: uppercase;
+    font-size: 4rem;
+    letter-spacing: .5rem;
+    text-align: center;
+    padding: 5rem 0 1rem 0;
+    margin-bottom: 2rem;
+}
+.desc-subtitle {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.desc-desc {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+.desc-list-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
+
+.form-box {
+    widows: 100%;
+    margin-top: 4rem;
+}
+textarea {
+    resize: none;
+}
+.form-group input[type="password"] {
+    width: 20%;
+}
+.btn-div {
+    text-align: center;
+    padding: 2rem;
+}
+.crypt-button {
+    padding: .75rem 3rem;
+    color: #380;
+    background: transparent;
+    border: 1px solid #380;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    border-radius: 5rem;
+    box-shadow: 0 .25rem .5rem rgba(0,0,0,.1);
+    transition: all .3s;
+    margin: 0 auto;
+}
+.crypt-button:hover {
+    color: white;
+    background: #380;
+    text-decoration: none;
+    transform: translateY(-.5rem);
+    box-shadow: 0 .75rem .75rem rgba(0,0,0,.2);
+}
+.crypt-button:active {
+    box-shadow: 0 .5rem .5rem rgba(0,0,0,.2);    
+    transform: translateY(-.2rem);
+}
+.crypt-button:focus {
+    outline: 0;
+}
+.result-subtitle {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.process {
+    background: #333;
+    color: #eee;
+    margin-top: 4rem;
+    padding: 4rem;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+span {
+    font-size: 1.3rem !important;
+    font-weight: normal;
+    text-transform: none;
+}
