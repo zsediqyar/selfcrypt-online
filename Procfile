@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* selfcrypt
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* 
